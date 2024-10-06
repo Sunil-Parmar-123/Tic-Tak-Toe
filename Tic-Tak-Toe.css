@@ -1,0 +1,70 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+
+.butt {
+    font-size: 40px;
+    color: black;
+    height: 70px;
+    width: 70px;   
+    margin: 0 7px 7px 0;
+    background-color: rgb(119, 78, 186);
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 4px rgb(0, 54, 0);
+    outline: none;
+}
+
+.butt:active {
+    box-shadow: 0 2px rgb(0, 54, 0);    
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 231px;
+    margin: auto;
+    padding: 2px;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(154, 128, 53);
+}
+
+#reset {
+    border: 1px dashed black;
+    font-size: large;
+    color: aliceblue;
+    background-color: brown;
+    outline: none;
+    margin:34px;
+    padding:4px;
+}
+.msg{
+    margin-top: 450px;
+    margin-bottom:30px;
+    text-align: center;
+    
+}
+.title{
+    margin: 28px;
+    padding: 4px;
+}
+#winn{
+    font-size: medium;
+    color: black;
+    background-color: aliceblue;
+    display: inline;
+}
+#new{
+    font-size: medium;
+    color: aliceblue;
+    background-color: black;
+    
+}
+.hide{
+    display: none;
+}
